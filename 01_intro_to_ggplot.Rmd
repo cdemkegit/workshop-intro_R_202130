@@ -166,7 +166,7 @@ ggplot(credits_by_college, aes(x = year, y = credits, group = college, color = c
   scale_y_continuous(labels = comma) +
   guides(color = guide_legend(title = "College")) +
   labs(title = "Credits by college",
-       subtitle = "Credits taken within each college 2011-2020",
+       subtitle = "Credits taken within each college 2011-2021",
        caption = "Data supplied by OIE",
        x = 'Year',
        y = 'Credits') +
